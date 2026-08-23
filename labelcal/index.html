@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="LabelCal calibrates printer drift, lays out exact-size labels, checks output geometry, and prints or exports verified sheets.">
+  <title>LabelCal — Exact Size Label Printing</title>
+  <style>
+    :root { color-scheme: light; --paper:#f7f2e8; --ink:#1b1d1e; --muted:#666865; --cyan:#00aebe; --verm:#ef4932; }
+    * { box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 0; color: var(--ink); background: var(--paper); }
+    main { max-width: 980px; margin: 0 auto; padding: 34px 24px 80px; }
+    nav { display:flex; justify-content:space-between; align-items:center; gap:18px; margin-bottom:72px; }
+    nav strong { font: 750 17px ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing:.04em; }
+    nav div { display:flex; gap:18px; }
+    a { color:#007d89; font-weight:650; }
+    nav a { font-size:15px; }
+    .hero { max-width:860px; }
+    .eyebrow { font:700 15px ui-monospace, SFMono-Regular, Menlo, monospace; color:var(--cyan); letter-spacing:.08em; }
+    h1 { font-size:clamp(58px, 10vw, 116px); line-height:.91; letter-spacing:-.06em; margin:18px 0 28px; }
+    .lead { max-width:720px; font-size:clamp(21px, 3vw, 30px); line-height:1.38; color:var(--muted); }
+    .promise { display:inline-block; margin:24px 0 66px; padding:13px 18px; border:2px solid var(--verm); border-radius:999px; color:var(--verm); font-weight:750; }
+    .grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; }
+    article { min-height:210px; padding:28px; background:rgba(255,255,255,.62); border:1px solid rgba(27,29,30,.1); border-radius:24px; }
+    article:nth-child(2), article:nth-child(3) { border-top:7px solid var(--cyan); }
+    article:nth-child(1), article:nth-child(4) { border-top:7px solid var(--verm); }
+    h2 { margin:0 0 12px; font-size:28px; letter-spacing:-.025em; }
+    p { font-size:18px; line-height:1.58; color:var(--muted); }
+    footer { margin-top:64px; padding-top:24px; border-top:1px solid rgba(27,29,30,.14); display:flex; justify-content:space-between; gap:18px; flex-wrap:wrap; }
+    @media (max-width:680px) { .grid { grid-template-columns:1fr; } nav { margin-bottom:48px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <nav>
+      <strong>LABELCAL</strong>
+      <div><a href="support/">Support</a><a href="privacy/">Privacy</a></div>
+    </nav>
+    <section class="hero">
+      <p class="eyebrow">CALIBRATE / LAYOUT / PROOF / PRINT</p>
+      <h1>Exact-size labels. No wasted sheets.</h1>
+      <p class="lead">Measure printer drift once, save the correction, arrange every cell in millimetres, and verify the full sheet before it reaches the printer.</p>
+      <p class="promise">One purchase. No account. No subscription.</p>
+    </section>
+    <section class="grid" aria-label="LabelCal features">
+      <article><h2>Calibrate the real printer</h2><p>Record X/Y offset and scale, print a verification target, and keep a reusable correction for that printer and stock.</p></article>
+      <article><h2>Define physical stock</h2><p>Set page size, rows, columns, label size, margins, and gaps using exact metric measurements.</p></article>
+      <article><h2>Build the full batch</h2><p>Use text, photos, images, or vector PDFs and populate an entire sheet without placing each label manually.</p></article>
+      <article><h2>Proof before output</h2><p>Check calibration, geometry, missing artwork, and image resolution before native printing or exact-size PDF export.</p></article>
+    </section>
+    <footer><span>LabelCal for iPhone and iPad</span><span><a href="mailto:namanmahendra8909@gmail.com">Contact support</a></span></footer>
+  </main>
+</body>
+</html>
