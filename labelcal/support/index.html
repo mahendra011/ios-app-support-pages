@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Support for LabelCal, the exact-size label calibration and printing app for iPhone and iPad.">
+  <title>LabelCal Support</title>
+  <style>
+    :root { color-scheme: light; --paper:#f7f2e8; --ink:#1b1d1e; --muted:#666865; --cyan:#00aebe; --verm:#ef4932; }
+    * { box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 0; color: var(--ink); background: var(--paper); }
+    main { max-width: 760px; margin: 0 auto; padding: 56px 24px 72px; }
+    header { border-top: 8px solid var(--cyan); padding-top: 24px; }
+    .eyebrow { font: 700 14px ui-monospace, SFMono-Regular, Menlo, monospace; color: var(--cyan); letter-spacing: .08em; }
+    h1 { font-size: clamp(40px, 8vw, 64px); letter-spacing: -.045em; line-height: .98; margin: 14px 0 18px; }
+    h2 { margin-top: 38px; font-size: 24px; }
+    p, li { font-size: 18px; line-height: 1.6; color: var(--muted); }
+    strong { color: var(--ink); }
+    a { color: #007d89; font-weight: 650; }
+    .panel { background: rgba(255,255,255,.62); border: 1px solid rgba(27,29,30,.10); border-radius: 20px; padding: 22px; margin: 28px 0; }
+    .mark { width: 52px; height: 52px; position: relative; border-radius: 13px; background: rgba(239,73,50,.10); }
+    .mark:before, .mark:after { content:""; position:absolute; background:var(--verm); left:13px; top:24px; width:26px; height:4px; }
+    .mark:after { transform: rotate(90deg); }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="mark" aria-hidden="true"></div>
+      <p class="eyebrow">LABELCAL / SUPPORT</p>
+      <h1>Exact output starts with one good calibration.</h1>
+      <p>LabelCal helps you measure printer drift, define physical label stock in millimetres, arrange a batch, inspect its proof, and print or export an exact-size PDF.</p>
+    </header>
+
+    <div class="panel">
+      <strong>Need help?</strong>
+      <p>Email <a href="mailto:namanmahendra8909@gmail.com">namanmahendra8909@gmail.com</a>. Include your device model, iOS or iPadOS version, printer model, stock measurements, and what you expected to happen.</p>
+    </div>
+
+    <h2>Reliable first print</h2>
+    <ol>
+      <li>Confirm the page, grid, margins, gaps, and label dimensions shown under Stock.</li>
+      <li>Print the calibration target at 100% or Actual Size. Disable Fit, Scale to Fit, and borderless enlargement.</li>
+      <li>Measure the printed crosshair offset and scale, enter the results, then print a verification sheet.</li>
+      <li>Record the residual. LabelCal marks the profile verified when it is within the displayed tolerance.</li>
+      <li>Add text, a photo, image, or PDF; fill the desired cells; inspect Proof; then print or save the exact-size PDF.</li>
+    </ol>
+
+    <h2>Common fixes</h2>
+    <ul>
+      <li><strong>Output is still shifted:</strong> confirm the print dialog is using 100% scale and the same paper size used during calibration.</li>
+      <li><strong>Rows drift gradually:</strong> recheck X and Y scale, not only the offset.</li>
+      <li><strong>Artwork looks soft:</strong> use a higher-resolution image or a vector PDF; review the resolution warning before output.</li>
+      <li><strong>Printer settings changed:</strong> recalibrate after changing the printer, driver, tray, borderless mode, stock, or paper-size setting.</li>
+    </ul>
+
+    <p><a href="../privacy/">Read the LabelCal Privacy Policy</a></p>
+  </main>
+</body>
+</html>
